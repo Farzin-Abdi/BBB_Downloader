@@ -1,6 +1,6 @@
 #!/bin/sh
 clear
-tput setaf $2 && echo -e "Download BBB meetings:\n\n"
+echo -e "Download BBB meetings:\n\n"
 echo
 echo
 echo -e "Select BBB Option:"
