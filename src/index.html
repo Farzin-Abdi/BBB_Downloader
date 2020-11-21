@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Downloaded meetings:</title>
+  </head>
+  <body>
+    <h1>Downloaded BBB meetings:</h1>
+    <div class="meeting-links">
+      <ul>
+        {% for link, name in meetingLinks %}
+        <li><a href={{ link }}>{{ name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>
